@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <script src="./script.js" defer></script>
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <ul class="grid-container">
+        <li class="report">
+          <div class="user">
+            <img
+              src="./images/image-jeremy.png"
+              class="user-img"
+              alt="Person img"
+            />
+            <div class="user-details">
+              <span class="report-text">Report for</span>
+              <strong class="user-name">Jeremy Robson</strong>
+            </div>
+          </div>
+          <div class="report-timing">
+            <a
+              href="#"
+              id="daily-report"
+              class="report-time report-time daily-report active"
+              >Daily</a
+            >
+            <a
+              href="#"
+              id="weekly-report"
+              class="report-time report-time weekly-report"
+              >Weekly</a
+            >
+            <a
+              href="#"
+              id="monthly-report"
+              class="report-time report-time monthly-report"
+              >Monthly</a
+            >
+          </div>
+        </li>
+        <li class="report-item work-report">
+          <div class="report-details">
+            <strong class="report-name"></strong>
+            <img
+              src="./images/icon-ellipsis.svg"
+              class="menu-btn"
+              alt="Menu Button icon"
+            />
+            <span id="work-current-time" class="current-time"></span>
+            <span id="work-prev-time" class="previous-time"></span>
+          </div>
+        </li>
+        <li class="report-item play-report">
+          <div class="report-details">
+            <strong class="report-name"></strong>
+            <img
+              src="./images/icon-ellipsis.svg"
+              class="menu-btn"
+              alt="Menu Button icon"
+            />
+            <span id="play-current-time" class="current-time"></span>
+            <span id="play-prev-time" class="previous-time"></span>
+          </div>
+        </li>
+        <li class="report-item study-report">
+          <div class="report-details">
+            <strong class="report-name"></strong>
+            <img
+              src="./images/icon-ellipsis.svg"
+              class="menu-btn"
+              alt="Menu Button icon"
+            />
+            <span id="study-current-time" class="current-time"></span>
+            <span id="study-prev-time" class="previous-time"></span>
+          </div>
+        </li>
+        <li class="report-item exercise-report">
+          <div class="report-details">
+            <strong class="report-name"></strong>
+            <img
+              src="./images/icon-ellipsis.svg"
+              class="menu-btn"
+              alt="Menu Button icon"
+            />
+            <span id="exercise-current-time" class="current-time"></span>
+            <span id="exercise-prev-time" class="previous-time"></span>
+          </div>
+        </li>
+        <li class="report-item social-report">
+          <div class="report-details">
+            <strong class="report-name"></strong>
+            <img
+              src="./images/icon-ellipsis.svg"
+              class="menu-btn"
+              alt="Menu Button icon"
+            />
+            <span id="social-current-time" class="current-time"></span>
+            <span id="social-prev-time" class="previous-time"></span>
+          </div>
+        </li>
+        <li class="report-item selfCare-report">
+          <div class="report-details">
+            <strong class="report-name"></strong>
+            <img
+              src="./images/icon-ellipsis.svg"
+              class="menu-btn"
+              alt="Menu Button icon"
+            />
+            <span id="selfCare-current-time" class="current-time"></span>
+            <span id="selfCare-prev-time" class="previous-time"></span>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.github.com/Rajiv-0920" target="_blank"
+          >Rajiv Kumar</a
+        >.
+      </div>
+    </footer>
+  </body>
+</html>
